@@ -39,15 +39,13 @@ matplotlib
 Instalación
 Clona el repositorio:
 
-bash
-Copy code
+
 git clone https://github.com/tu_usuario/analisis-churn-telecom.git
 cd analisis-churn-telecom
 Instala los paquetes necesarios:
 
-bash
-Copy code
-pip install -r requirements.txt
+
+
 Ejecución del Proyecto
 Preparar los datos: Ubica los archivos de datos en la carpeta data (si es necesario, actualiza las rutas en el código).
 
@@ -55,14 +53,10 @@ Análisis Exploratorio de Datos: Ejecuta el notebook de exploración para visual
 
 Entrenamiento y Ajuste de Hiperparámetros: Ejecuta el script principal del modelo para entrenar y ajustar los hiperparámetros.
 
-bash
-Copy code
-python src/model.py
+
 Interpretabilidad: Genera los valores SHAP y visualiza la importancia de características ejecutando el script de interpretabilidad.
 
-bash
-Copy code
-python src/explain.py
+
 Interpretabilidad del Modelo
 La interpretabilidad del modelo es un componente clave de este proyecto. Utilizamos SHAP (SHapley Additive exPlanations) para identificar cómo cada característica afecta la probabilidad de churn. Esto ayuda a los stakeholders a entender qué factores son más influyentes y cómo se comportan en distintas situaciones.
 
