@@ -27,15 +27,7 @@ Evaluación del rendimiento en conjuntos de validación y prueba.
 Interpretabilidad del Modelo: Uso de SHAP para analizar la importancia de características y su impacto en las predicciones.
 Estructura del Proyecto
 bash
-Copy code
-├── data                # Datos de entrada (no incluido en el repositorio)
-├── notebooks           # Jupyter notebooks con exploración y prototipos
-├── src                 # Código fuente del proyecto
-│   ├── preprocess.py   # Funciones de preprocesamiento
-│   ├── model.py        # Entrenamiento y evaluación del modelo
-│   └── explain.py      # Scripts de interpretabilidad
-├── README.md           # Este archivo
-└── requirements.txt    # Dependencias del proyecto
+ 
 Requisitos Previos
 Este proyecto requiere Python 3.8+ y las siguientes librerías principales:
 
@@ -76,10 +68,6 @@ La interpretabilidad del modelo es un componente clave de este proyecto. Utiliza
 
 Gráficos de Barra: Muestra las características más importantes.
 Gráficos Beeswarm: Proporciona una visualización detallada del impacto de cada característica.
-Resultados
-Precisión del Modelo: El modelo alcanzó una precisión promedio de 0.XX en los conjuntos de validación y prueba.
-Interpretabilidad: Se identificaron las características más influyentes en el churn, tales como el tipo de contrato, la satisfacción del cliente y el uso de servicios adicionales.
-Estos resultados permitirán a la empresa de telecomunicaciones implementar estrategias de retención específicas para los clientes en riesgo de churn.
-
+ 
 Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cualquier cambio o mejora que te gustaría hacer. Para contribuciones mayores, primero abre un issue para discutir lo que te gustaría cambiar.
